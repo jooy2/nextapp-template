@@ -1,5 +1,5 @@
 import { Typography } from '@mui/material';
-import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { css } from '@mui/material-pigment-css';
 
 const cssTextMainHeading = css({
@@ -11,7 +11,7 @@ const cssTextMainHeading = css({
 });
 
 export default async function Index({ params: { locale } }) {
-  unstable_setRequestLocale(locale);
+  setRequestLocale(locale);
 
   const t = await getTranslations();
 

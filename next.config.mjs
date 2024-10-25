@@ -25,4 +25,4 @@ const pigmentConfig = {
   // transformLibraries: ['@mui/material'],
 };
 
-export default withPigment(withNextIntl(nextConfig), pigmentConfig);
+export default withNextIntl(withPigment(nextConfig, pigmentConfig));
