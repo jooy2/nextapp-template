@@ -1,7 +1,17 @@
 {
-  "name": "nextapp-template",
+  "name": "next-art",
   "version": "1.0.0",
   "private": true,
+  "author": "CDGet <jooy2.contact@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/jooy2/nextart.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jooy2/nextart.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jooy2/nextart/issues"
+  },
   "dependencies": {
     "@mui/icons-material": "^6.1.5",
     "@mui/material": "^6.1.5",
