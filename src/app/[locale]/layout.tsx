@@ -14,9 +14,9 @@ import StoreProvider from '@/store/StoreProvider';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'NextAppTemplate',
-  applicationName: 'NextAppTemplate',
-  description: 'NextAppTemplate',
+  title: 'NextART',
+  applicationName: 'NextART',
+  description: 'NextART',
   keywords: [],
   // icons: { shortcut: '/favicon.png' },
 };
